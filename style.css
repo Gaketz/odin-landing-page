@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.firstSection {
+    background-color: #1F2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ul, .logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+ .subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.contentRight {
+    width: 500px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.contentLeft {
+    width: 600px;
+}
+
+.signup {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.secondSection {
+    padding: 20px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.examples {
+    display: flex;
+    justify-content: space-around;
+}
+
+.examplesBox {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 5px;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+.laptopBox {
+    width:200px;
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.thirdSection {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    padding: 50px 80px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    flex-wrap: wrap;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+    font-style: italic;
+    align-self: flex-end;
+}
+
+.fourthSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 5%;
+    padding: 35px 40px;
+}
+
+.contentCall {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+
+.fourthSection button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-weight: bold;    
+    border-color: #e5e7eb;
+    border-width: 3px;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 25px;
+}
